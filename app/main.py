@@ -13,7 +13,7 @@ class LlmResponse(BaseModel):
 def read_root():
     return {"message": "Hello from FastAPI on Azure!"}
 
-@app.post("/query", response_model=LlmResponse)
+@app.get("/query", response_model=LlmResponse)
 async def query_llm(request: str):
     try:
         load_dotenv()
