@@ -3,3 +3,13 @@ uvicorn
 pydantic
 langchain-google-genai
 python-dotenv
+
+langgraph
+langchain
+aiohttp
+exa-py
+langchain-linkup
+tavily-python
+beautifulsoup4
+langchain-community
+duckduckgo-search
